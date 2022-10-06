@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".ui.SignupActivity"
+	android:background="@color/backColor">
+
+	<LinearLayout
+		android:layout_gravity="center_vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:layout_margin="15dp"
+		android:background="@drawable/corner_layout"
+		android:elevation="10dp"
+		android:padding="15dp">
+
+
+		<ImageView
+			android:id="@+id/imageView2"
+			android:layout_width="match_parent"
+			android:layout_height="80dp"
+			android:layout_margin="5dp"
+			app:srcCompat="@drawable/staff_manegment" />
+
+		<EditText
+			android:id="@+id/editTextNameRegister"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:background="@drawable/border"
+			android:drawableStart="@drawable/person"
+			android:drawablePadding="10dp"
+			android:ems="10"
+			android:hint="Name"
+			android:inputType="text"
+			android:singleLine="true"
+			android:padding="10dp" />
+
+		<EditText
+			android:id="@+id/editTextDateRegister"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:background="@drawable/border"
+			android:drawableStart="@drawable/dob"
+			android:drawablePadding="10dp"
+			android:ems="10"
+			android:hint="01/12/2000"
+			android:maxLength="10"
+			android:inputType="date"
+			android:singleLine="true"
+			android:padding="10dp" />
+
+		<EditText
+			android:id="@+id/editTextMobileRegister"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:background="@drawable/border"
+			android:drawableStart="@drawable/phone"
+			android:drawablePadding="10dp"
+			android:ems="10"
+			android:hint="Mobile Number"
+			android:maxLength="10"
+			android:inputType="phone"
+			android:singleLine="true"
+			android:padding="10dp" />
+
+		<EditText
+			android:id="@+id/editTextAddressRegister"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:background="@drawable/border"
+			android:drawableStart="@drawable/ic_baseline_add_home_work_24"
+			android:drawablePadding="10dp"
+			android:ems="10"
+			android:hint="Address"
+			android:inputType="text"
+			android:singleLine="true"
+			android:padding="10dp" />
+
+
+		<EditText
+			android:id="@+id/editTextTextEmailAddressRegister"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:background="@drawable/border"
+			android:drawableStart="@drawable/email"
+			android:drawablePadding="10dp"
+			android:ems="10"
+			android:hint="Email"
+			android:inputType="textEmailAddress"
+			android:padding="10dp" />
+
+		<EditText
+			android:id="@+id/editTextTextPasswordRegister"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:background="@drawable/border"
+
+			android:drawableStart="@drawable/password"
+			android:drawablePadding="10dp"
+			android:ems="10"
+			android:hint="Password"
+			android:inputType="textPassword"
+			android:padding="10dp" />
+
+		<Button
+			android:id="@+id/btnSignupRegister"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:layout_marginTop="15dp"
+			android:layout_marginRight="5dp"
+			android:layout_marginBottom="5dp"
+			android:background="@drawable/btn_border"
+			android:textColor="@color/white"
+			android:textStyle="bold"
+			android:text="Registered" />
+
+		<Button
+			android:id="@+id/btnLoginRegister"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:textColor="@color/white"
+			android:textStyle="bold"
+			android:background="@drawable/btn_border"
+			android:text="Login" />
+
+	</LinearLayout>
+
+</ScrollView>
